@@ -34,7 +34,7 @@ github "morishin/BetterUserDefaults"
 Podfile
 
 ```ruby
-pod 'BetterUserDefaults', git: 'https://github.com/morishin/BetterUserDefaults.git'
+pod 'BetterUserDefaults'
 ```
 
 ## LICENSE

@@ -1,5 +1,5 @@
 import Foundation
-import SwiftyUserDefaults
+import BetterUserDefaults
 
 extension UserDefaults.Key {
     static let sampleKeyA = UserDefaults.Key("sampleKeyA")
@@ -9,6 +9,6 @@ extension UserDefaults.Key {
 UserDefaults.standard.set(true, for: .sampleKeyA)
 UserDefaults.standard.set(123, for: .sampleKeyB)
 
-// not stored on playground...
+// not stored on playground 😢
 UserDefaults.standard.bool(for: .sampleKeyA)
 UserDefaults.standard.integer(for: .sampleKeyB)

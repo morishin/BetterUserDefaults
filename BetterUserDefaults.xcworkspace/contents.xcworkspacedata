@@ -5,6 +5,6 @@
       location = "group:Demo.playground">
    </FileRef>
    <FileRef
-      location = "container:SwiftyUserDefaults.xcodeproj">
+      location = "container:/Users/shintaro-morikawa/develop/BetterUserDefaults/BetterUserDefaults.xcodeproj">
    </FileRef>
 </Workspace>

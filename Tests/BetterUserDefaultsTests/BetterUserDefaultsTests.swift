@@ -1,11 +1,11 @@
 import XCTest
-@testable import SwiftyUserDefaults
+@testable import BetterUserDefaults
 
 extension UserDefaults.Key {
     static let someKey = UserDefaults.Key("someKey")
 }
 
-class SwiftyUserDefaultsTests: XCTestCase {
+class BetterUserDefaultsTests: XCTestCase {
     override func setUp() {
         super.setUp()
     }

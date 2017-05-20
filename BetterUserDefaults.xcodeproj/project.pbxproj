@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B2493A71E4CE059007D30AF /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B24939D1E4CE059007D30AF /* SwiftyUserDefaults.framework */; };
-		5B2493AC1E4CE059007D30AF /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2493AB1E4CE059007D30AF /* SwiftyUserDefaultsTests.swift */; };
-		5B2493AE1E4CE059007D30AF /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2493A01E4CE059007D30AF /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B2493A71E4CE059007D30AF /* BetterUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B24939D1E4CE059007D30AF /* BetterUserDefaults.framework */; };
+		5B2493AC1E4CE059007D30AF /* BetterUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2493AB1E4CE059007D30AF /* BetterUserDefaultsTests.swift */; };
+		5B2493AE1E4CE059007D30AF /* BetterUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2493A01E4CE059007D30AF /* BetterUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B2493E31E4CE3F1007D30AF /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2493E21E4CE3F1007D30AF /* UserDefaults+Key.swift */; };
 /* End PBXBuildFile section */
 
@@ -19,16 +19,16 @@
 			containerPortal = 5B2493941E4CE059007D30AF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5B24939C1E4CE059007D30AF;
-			remoteInfo = SwiftyUserDefaults;
+			remoteInfo = BetterUserDefaults;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B24939D1E4CE059007D30AF /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2493A01E4CE059007D30AF /* SwiftyUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyUserDefaults.h; sourceTree = "<group>"; };
+		5B24939D1E4CE059007D30AF /* BetterUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2493A01E4CE059007D30AF /* BetterUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterUserDefaults.h; sourceTree = "<group>"; };
 		5B2493A11E4CE059007D30AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B2493A61E4CE059007D30AF /* SwiftyUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2493AB1E4CE059007D30AF /* SwiftyUserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaultsTests.swift; sourceTree = "<group>"; };
+		5B2493A61E4CE059007D30AF /* BetterUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2493AB1E4CE059007D30AF /* BetterUserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterUserDefaultsTests.swift; sourceTree = "<group>"; };
 		5B2493AD1E4CE059007D30AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B2493E21E4CE3F1007D30AF /* UserDefaults+Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Key.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2493A71E4CE059007D30AF /* SwiftyUserDefaults.framework in Frameworks */,
+				5B2493A71E4CE059007D30AF /* BetterUserDefaults.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		5B2493931E4CE059007D30AF = {
 			isa = PBXGroup;
 			children = (
-				5B24939F1E4CE059007D30AF /* SwiftyUserDefaults */,
-				5B2493AA1E4CE059007D30AF /* SwiftyUserDefaultsTests */,
+				5B24939F1E4CE059007D30AF /* BetterUserDefaults */,
+				5B2493AA1E4CE059007D30AF /* BetterUserDefaultsTests */,
 				5B24939E1E4CE059007D30AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,31 +64,31 @@
 		5B24939E1E4CE059007D30AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B24939D1E4CE059007D30AF /* SwiftyUserDefaults.framework */,
-				5B2493A61E4CE059007D30AF /* SwiftyUserDefaultsTests.xctest */,
+				5B24939D1E4CE059007D30AF /* BetterUserDefaults.framework */,
+				5B2493A61E4CE059007D30AF /* BetterUserDefaultsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B24939F1E4CE059007D30AF /* SwiftyUserDefaults */ = {
+		5B24939F1E4CE059007D30AF /* BetterUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				5B2493A01E4CE059007D30AF /* SwiftyUserDefaults.h */,
+				5B2493A01E4CE059007D30AF /* BetterUserDefaults.h */,
 				5B2493A11E4CE059007D30AF /* Info.plist */,
 				5B2493E21E4CE3F1007D30AF /* UserDefaults+Key.swift */,
 			);
-			name = SwiftyUserDefaults;
-			path = Sources/SwiftyUserDefaults;
+			name = BetterUserDefaults;
+			path = Sources/BetterUserDefaults;
 			sourceTree = "<group>";
 		};
-		5B2493AA1E4CE059007D30AF /* SwiftyUserDefaultsTests */ = {
+		5B2493AA1E4CE059007D30AF /* BetterUserDefaultsTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B2493AB1E4CE059007D30AF /* SwiftyUserDefaultsTests.swift */,
+				5B2493AB1E4CE059007D30AF /* BetterUserDefaultsTests.swift */,
 				5B2493AD1E4CE059007D30AF /* Info.plist */,
 			);
-			name = SwiftyUserDefaultsTests;
-			path = Tests/SwiftyUserDefaultsTests;
+			name = BetterUserDefaultsTests;
+			path = Tests/BetterUserDefaultsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,16 +98,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2493AE1E4CE059007D30AF /* SwiftyUserDefaults.h in Headers */,
+				5B2493AE1E4CE059007D30AF /* BetterUserDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5B24939C1E4CE059007D30AF /* SwiftyUserDefaults */ = {
+		5B24939C1E4CE059007D30AF /* BetterUserDefaults */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2493B11E4CE059007D30AF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildConfigurationList = 5B2493B11E4CE059007D30AF /* Build configuration list for PBXNativeTarget "BetterUserDefaults" */;
 			buildPhases = (
 				5B2493981E4CE059007D30AF /* Sources */,
 				5B2493991E4CE059007D30AF /* Frameworks */,
@@ -118,14 +118,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftyUserDefaults;
-			productName = SwiftyUserDefaults;
-			productReference = 5B24939D1E4CE059007D30AF /* SwiftyUserDefaults.framework */;
+			name = BetterUserDefaults;
+			productName = BetterUserDefaults;
+			productReference = 5B24939D1E4CE059007D30AF /* BetterUserDefaults.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5B2493A51E4CE059007D30AF /* SwiftyUserDefaultsTests */ = {
+		5B2493A51E4CE059007D30AF /* BetterUserDefaultsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2493B41E4CE059007D30AF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaultsTests" */;
+			buildConfigurationList = 5B2493B41E4CE059007D30AF /* Build configuration list for PBXNativeTarget "BetterUserDefaultsTests" */;
 			buildPhases = (
 				5B2493A21E4CE059007D30AF /* Sources */,
 				5B2493A31E4CE059007D30AF /* Frameworks */,
@@ -136,9 +136,9 @@
 			dependencies = (
 				5B2493A91E4CE059007D30AF /* PBXTargetDependency */,
 			);
-			name = SwiftyUserDefaultsTests;
-			productName = SwiftyUserDefaultsTests;
-			productReference = 5B2493A61E4CE059007D30AF /* SwiftyUserDefaultsTests.xctest */;
+			name = BetterUserDefaultsTests;
+			productName = BetterUserDefaultsTests;
+			productReference = 5B2493A61E4CE059007D30AF /* BetterUserDefaultsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B2493971E4CE059007D30AF /* Build configuration list for PBXProject "SwiftyUserDefaults" */;
+			buildConfigurationList = 5B2493971E4CE059007D30AF /* Build configuration list for PBXProject "BetterUserDefaults" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,8 +173,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B24939C1E4CE059007D30AF /* SwiftyUserDefaults */,
-				5B2493A51E4CE059007D30AF /* SwiftyUserDefaultsTests */,
+				5B24939C1E4CE059007D30AF /* BetterUserDefaults */,
+				5B2493A51E4CE059007D30AF /* BetterUserDefaultsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2493AC1E4CE059007D30AF /* SwiftyUserDefaultsTests.swift in Sources */,
+				5B2493AC1E4CE059007D30AF /* BetterUserDefaultsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 /* Begin PBXTargetDependency section */
 		5B2493A91E4CE059007D30AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B24939C1E4CE059007D30AF /* SwiftyUserDefaults */;
+			target = 5B24939C1E4CE059007D30AF /* BetterUserDefaults */;
 			targetProxy = 5B2493A81E4CE059007D30AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -332,10 +332,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftyUserDefaults/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/BetterUserDefaults/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.BetterUserDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -352,10 +352,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftyUserDefaults/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/BetterUserDefaults/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.BetterUserDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -366,9 +366,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/SwiftyUserDefaultsTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/BetterUserDefaultsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.SwiftyUserDefaultsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.BetterUserDefaultsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -378,9 +378,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/SwiftyUserDefaultsTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/BetterUserDefaultsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.SwiftyUserDefaultsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morishin.BetterUserDefaultsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -389,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B2493971E4CE059007D30AF /* Build configuration list for PBXProject "SwiftyUserDefaults" */ = {
+		5B2493971E4CE059007D30AF /* Build configuration list for PBXProject "BetterUserDefaults" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B2493AF1E4CE059007D30AF /* Debug */,
@@ -398,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B2493B11E4CE059007D30AF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+		5B2493B11E4CE059007D30AF /* Build configuration list for PBXNativeTarget "BetterUserDefaults" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B2493B21E4CE059007D30AF /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B2493B41E4CE059007D30AF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaultsTests" */ = {
+		5B2493B41E4CE059007D30AF /* Build configuration list for PBXNativeTarget "BetterUserDefaultsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B2493B51E4CE059007D30AF /* Debug */,

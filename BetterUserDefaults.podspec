@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "SwiftyUserDefaults"
-  s.version      = "0.1.0"
+  s.name         = "BetterUserDefaults"
+  s.version      = "0.2.0"
   s.summary      = "UserDefaults extensions"
-  s.homepage     = "https://github.com/morishin/SwiftyUserDefaults"
+  s.homepage     = "https://github.com/morishin/BetterUserDefaults"
   s.author       = { "morishin" => "sntr92@gmail.com" }
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/morishin/SwiftyUserDefaults.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/morishin/BetterUserDefaults.git", :tag => "#{s.version}" }
   s.source_files = "Sources/**/*.{swift,h,m}"
   s.license = {
     :type => "MIT",

@@ -1,4 +1,4 @@
-# SwiftyUserDefaults
+# BetterUserDefaults
 
 ![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -8,7 +8,7 @@ UserDefaults Swift Extensions
 
 ## Usage
 ```swift
-import SwiftyUserDefaults
+import BetterUserDefaults
 
 extension UserDefaults.Key {
     static let sampleKeyA = UserDefaults.Key("sampleKeyA")
@@ -27,14 +27,14 @@ UserDefaults.standard.integer(for: .sampleKeyB)    // 123
 Cartfile
 
 ```
-github "morishin/SwiftyUserDefaults"
+github "morishin/BetterUserDefaults"
 ```
 
 ### CocoaPods
 Podfile
 
 ```ruby
-pod 'SwiftyUserDefaults', git: 'https://github.com/morishin/SwiftyUserDefaults.git'
+pod 'BetterUserDefaults', git: 'https://github.com/morishin/BetterUserDefaults.git'
 ```
 
 ## LICENSE

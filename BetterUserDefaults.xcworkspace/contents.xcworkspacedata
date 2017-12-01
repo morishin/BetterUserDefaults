@@ -5,6 +5,6 @@
       location = "group:Demo.playground">
    </FileRef>
    <FileRef
-      location = "container:/Users/shintaro-morikawa/develop/BetterUserDefaults/BetterUserDefaults.xcodeproj">
+      location = "container:BetterUserDefaults.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BetterUserDefaults"
-  s.version      = "0.2.0"
+  s.version      = "1.0.0"
   s.summary      = "UserDefaults extensions"
   s.homepage     = "https://github.com/morishin/BetterUserDefaults"
   s.author       = { "morishin" => "sntr92@gmail.com" }
